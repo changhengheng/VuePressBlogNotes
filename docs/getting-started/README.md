@@ -51,7 +51,7 @@ module.exports = {
 
 **可选**：
 
-如果你想配置下面的文件，你需要一些[VuePress的知识 ](https://vuepress.vuejs.org/).
+如果你想配置下面的文件，你需要一些[VuePress的知识](https://vuepress.vuejs.org/).
 
 - `blog/.vuepress/components`: 该目录下的 Vue 组件会自动注册为全局组件。
 - `blog/.vuepress/styles`：存储与样式相关的文件。
@@ -64,7 +64,7 @@ module.exports = {
 
 必须在 `.vuepress/config.js` 中添加 `@vuepress/theme-blog` 作为主题。`@vuepress/theme-blog`是可配置的，但我们现在将使用默认值。
 
-```
+```js
 // .vuepress/config.js
 module.exports = {
   title: 'VuePress Blog Example', // Title for the site. This will be displayed in the navbar.
@@ -96,7 +96,7 @@ module.exports = {
 
 所有博客帖子文件都可以从 front matter 开始，只有 `title` 是必须的，但建议定义如下所有 frontmatter 变量，它们将用于设置相应的布局：
 
-```
+```forntmatter
 ---
 title: Hello World
 date: 2020-01-11
@@ -110,14 +110,11 @@ My content.
 ```
 
 **提示**
-
 查看[frontmatter](https://vuepress-theme-blog.billyyyyy3320.com/config/front-matter)了解更多详情。
-
-
 
 帖子文件可以任意命名，但建议加上日期，从而方便组织并默认用作永久链接，例如：
 
-```
+```text
 2018-11-7-frontmatter-in-vuepress.md 
 2019-2-26-markdown-slot.md 
 2019-5-6-writing-a-vuepress-theme.md 
@@ -148,7 +145,7 @@ location: Taipei
 
 ## 快速开始
 
-为了更容易上手，你可以使用[create-vuepress ](https://github.com/vuepressjs/create-vuepress)。这确实是一个 npm 包，但这并不意味着您需要先手动安装它。这是一个例子：
+为了更容易上手，你可以使用[create-vuepress](https://github.com/vuepressjs/create-vuepress)。这确实是一个 npm 包，但这并不意味着您需要先手动安装它。这是一个例子：
 
 第 1 步：搭建一个 VuePress 博客
 
