@@ -13,7 +13,7 @@ module.exports = {
             ['/getting-started/1.常用配置', '常用配置'],
             ['/getting-started/2.Front-Matter', 'Front-Matter'],
             ['/getting-started/3.调色板', '调色板'],
-            ['/getting-started/4.plugin-blog插件.md', '@vuepress/plugin-blog插件快速入门'],
+            ['/getting-started/4.plugin-blog插件快速入门.md', '@vuepress/plugin-blog插件快速入门'],
         ]
     }
 }

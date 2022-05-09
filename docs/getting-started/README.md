@@ -1,8 +1,10 @@
-# 博客主题
+# 官方博客主题@vuepress/theme-blog快速入门
+
+这个主题没有主页的功能，可以继承 @vuepress/theme-blog来自定义主题。
 
 ## 网站
 
-- [文档(opens new window)](https://vuepress-theme-blog.billyyyyy3320.com/)
+- [文档](https://vuepress-theme-blog.billyyyyy3320.com/)
 
 ## 安装
 
