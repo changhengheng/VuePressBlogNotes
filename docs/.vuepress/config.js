@@ -1,12 +1,12 @@
 module.exports = {
-    title: 'vuePressBlogNotes', // 设置网站标题
+    title: 'VuePressBlogNotes', // 设置网站标题
     dest: './dist',  // 设置输出目录，这个目录后续部署到github上的时候会用到
-    base: '/vuePressBlogNotes/',// 设置站点根路径
+    base: '/VuePressBlogNotes/',// 设置站点根路径
     repo:
-        'https://github.com/changhengheng/vuePressBlogNotes.git', // 添加 github 链接
+        'https://github.com/changhengheng/VuePressBlogNotes.git', // 添加 github 链接
     themeConfig: {
         nav: [
-            { text: 'External', link: 'https://github.com/changhengheng/vuePressBlogNotes.git' },
+            { text: 'External', link: 'https://github.com/changhengheng/VuePressBlogNotes.git' },
           ],
         sidebar: [  
             ['/getting-started/', '快速入门'],
